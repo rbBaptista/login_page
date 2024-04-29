@@ -1,0 +1,96 @@
+.container {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.container .input-field {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-field input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.input-field input::placeholder {
+    color: #fff;
+}
+
+.input-field .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.recall-forget {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.recall-forget label * {
+    margin-right: 5px;
+}
+
+.recall-forget a {
+    text-decoration: none;
+}
+
+.recall-forget a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+
+.container button {
+    width: 50%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s;
+    transform: scale(1.1);
+}
+
+.create-account a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
